@@ -30,4 +30,6 @@ body {
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: optimize-contrast;
 	-ms-interpolation-mode: nearest-neighbor;
+        
+        padding-top: 62.5px;
 }

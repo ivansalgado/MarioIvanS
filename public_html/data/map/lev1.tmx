@@ -22,11 +22,9 @@
   </data>
  </layer>
  <objectgroup name="trigger-entities" width="16" height="9">
-  <object name="LevelTrigger" x="909" y="425" width="68" height="135">
+  <object name="levelTrigger" x="908" y="418" width="71" height="143">
    <properties>
     <property name="level" value="lev2"/>
-    <property name="xSpawn" value="400"/>
-    <property name="ySpawn" value="0"/>
    </properties>
   </object>
  </objectgroup>
