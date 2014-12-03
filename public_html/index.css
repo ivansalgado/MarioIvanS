@@ -1,6 +1,6 @@
 body {
 	background-color: #000;
-	color: #fff;
+	
 
 	/* Allow mouse dragging. */
 	-moz-user-select: none;
@@ -31,5 +31,5 @@ body {
 	image-rendering: optimize-contrast;
 	-ms-interpolation-mode: nearest-neighbor;
         
-        padding-top: 62.5px;
+        padding-top: 115px;
 }
