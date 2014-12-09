@@ -28,7 +28,7 @@ game.PlayerEntity = me.Entity.extend({
     
     update: function(delta){
         //moves right, doesn't flip
-        if (me.input.isKeyPressed('right')) {
+        if (me.input.isKeyPressed("right")) {
             this.flipX(false);
             //adds velocity
             this.body.vel.x += this.body.accel.x * me.timer.tick;

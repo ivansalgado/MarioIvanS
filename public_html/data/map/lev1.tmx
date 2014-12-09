@@ -53,5 +53,4 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="EnemyEntities" width="100" height="100"/>
 </map>

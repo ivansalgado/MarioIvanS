@@ -20,7 +20,7 @@ game.TitleScreen = me.ScreenObject.extend({
                     }
                     
                 })));
-                //when key is pushed, game intitalizes
+                //when enter key is pushed, game intitalizes
                 this.handler = me.event.subscribe(me.event.KEYDOWN, function(action, keyCode, edge){
                     if (action === "start"){
                         me.state.change(me.state.PLAY);
