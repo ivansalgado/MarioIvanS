@@ -6,12 +6,15 @@ game.PlayScreen = me.ScreenObject.extend({
 		// reset the score
 		game.data.score = 0;
                 
+                //loads first level
                 me.levelDirector.loadLevel("lev1");
                 
                 this.resetPlayer(0, 400);
                 
+                //moves mario
                 me.input.bindKey(me.input.KEY.RIGHT, "right");
-                me.input.bindKey(me.input.KEY.LEFT, "left");
+                me.input.bindKey(me.input.KEY.LEFT, 'left');
+                me.input.bindKey(me.input.KEY.UP, 'jump');
                
 
 		// add our HUD to the game world
@@ -28,6 +31,7 @@ game.PlayScreen = me.ScreenObject.extend({
 		me.game.world.removeChild(this.HUD);
 	},
         
+        //gives the depth of mario
         resetPlayer: function (x, y){
             var player = me.pool.pull('mario', x, y, {});
             me.game.world.addChild(player, 5);  

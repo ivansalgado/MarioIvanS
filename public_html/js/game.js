@@ -40,7 +40,9 @@ var game = {
 	// Run on game resources loaded.
 	"loaded" : function () {
                 
+                //adds mario and slime
                 me.pool.register("mario", game.PlayerEntity, true);
+            
                 
                 me.pool.register("LevelTrigger", game.LevelTrigger);
             
